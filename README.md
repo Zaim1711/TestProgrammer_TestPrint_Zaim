@@ -32,25 +32,35 @@ git clone https://github.com/Zaim1711/TestProgrammer_TestPrint_Zaim.git
 cd TestProgrammer_TestPrint_Zaim
 ```
 2.Install dependencies: 
+```bash
 composer Intall
+```
 
 3.Pada file .env berdasarkan .env.example atur koneksi database:
+```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=fastprint
 DB_USERNAME=root
 DB_PASSWORD=
+```
 
 4.Migrasi database:
+```bash
 php artisan migrate
+```
 
 5.Kemudian jalankan Console/Comamand/FetchProduct untuk mengambil data dari API FastPrint
+```bash
 php artisan app:fetch-products
+```
 
 6.Jalankan server lokal
+```bash
 php artisan serve
 Buka browser di: http://127.0.0.1:8000/
+```
 
 
 "# TestProgrammer_TestPrint_Zaim" 
