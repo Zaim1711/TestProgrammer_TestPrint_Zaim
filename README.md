@@ -36,12 +36,21 @@ cd TestProgrammer_TestPrint_Zaim
 composer Intall
 ```
 
-3.Buat database MySQL Masuk ke MySQL CLI atau phpMyAdmin, buat database dengan nama fastprint:
+3. buat file .env
+```bash
+copy .env.example.env
+```
+4.jalankan perintah ini untuk generate key:
+```bash
+php artisan key:generate
+```
+
+5.Buat database MySQL Masuk ke MySQL CLI atau phpMyAdmin, buat database dengan nama fastprint:
 ```bash
 CREATE DATABASE fastprint;
 ```
 
-3.Pada file .env berdasarkan .env.example atur koneksi database:
+6.Pada file .env berdasarkan .env.example atur koneksi database:
 ```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
