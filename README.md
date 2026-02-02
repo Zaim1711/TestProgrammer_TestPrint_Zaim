@@ -9,8 +9,10 @@
 
 # Tes Junior Programmer – Fastprint
 
+Tampilan UI Project
 ![Tampilan UI Project](https://raw.githubusercontent.com/Zaim1711/TestProgrammer_TestPrint_Zaim/main/resources/assets/image.png)
 
+Demo Video
 [![Demo Video](https://img.youtube.com/vi/Zn20hgxm9SE/0.jpg)](https://youtu.be/Zn20hgxm9SE)
 
 
