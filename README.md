@@ -56,7 +56,7 @@ DB_PASSWORD=
 php artisan migrate
 ```
 
-5.Kemudian jalankan Console/Comamand/FetchProduct untuk mengambil data dari API FastPrint
+5.Kemudian jalankan Console/Command/FetchProduct untuk mengambil data dari API FastPrint
 ```bash
 php artisan app:fetch-products
 ```
