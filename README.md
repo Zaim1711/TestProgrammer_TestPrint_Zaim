@@ -31,9 +31,14 @@ Fitur utama:
 git clone https://github.com/Zaim1711/TestProgrammer_TestPrint_Zaim.git
 cd TestProgrammer_TestPrint_Zaim
 ```
-2.Install dependencies: 
+2.Install dependencies: (kalau sudah ada tidak perlu)
 ```bash
 composer Intall
+```
+
+3.Buat database MySQL Masuk ke MySQL CLI atau phpMyAdmin, buat database dengan nama fastprint:
+```bash
+CREATE DATABASE fastprint;
 ```
 
 3.Pada file .env berdasarkan .env.example atur koneksi database:
